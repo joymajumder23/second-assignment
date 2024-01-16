@@ -225,6 +225,7 @@ ul>li {
 /* newsletter section styles */
 #newsletter-section{
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 .newsletter {
     display: flex;
@@ -278,4 +279,29 @@ input[type="email"] {
     color: #FFF;
     font-size: 1.25rem;
     font-weight: 800;
+}
+.save-up-badge{
+    width: 324px;
+height: 120px;
+transform: rotate(-19.628deg);
+border-radius: 16px;
+background: #FF5400;
+color: #FFF;
+text-align: center;
+padding: 5px;
+position: relative;
+bottom: 200px;
+left: 300px;
+}
+.save-up-badge p{
+    font-size: 1.5rem;
+font-weight: 400;
+margin-top: 10px;
+margin-bottom: 5px;
+}
+.save-up-badge h3{
+    font-size: 2rem;
+font-weight: 800;
+margin-top: 0;
+margin-bottom: 20px;
 }
