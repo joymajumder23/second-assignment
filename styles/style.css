@@ -16,6 +16,7 @@ header {
     cursor: pointer;
     font-size: 1.5em;
 }
+
 nav {
     display: flex;
     align-items: center;
@@ -308,6 +309,9 @@ ul>li {
 .newsletter-content hr {
     background: rgba(168, 168, 170, 0.1);
 }
+.newsletter-img{
+    position: relative;
+}
 
 .form {}
 
@@ -343,9 +347,9 @@ input[type="email"] {
     color: #FFF;
     text-align: center;
     padding: 5px;
-    position: relative;
-    bottom: 200px;
-    left: 300px;
+    position: absolute;
+    bottom: 65px;
+    left: 325px;
 }
 
 .save-up-badge p {
@@ -366,7 +370,8 @@ input[type="email"] {
 footer {
     background: rgba(19, 19, 24, 0.05);
 }
-#footer-section{
+
+#footer-section {
     padding: 100px 284px;
 }
 
@@ -384,7 +389,7 @@ footer {
 
 .footer-title img {
     width: 40px;
-    height: 46.673px;  
+    height: 46.673px;
 }
 
 .footer-text {
@@ -392,10 +397,12 @@ footer {
     font-size: 2rem;
     font-weight: 800;
 }
-.footer-des{
+
+.footer-des {
     margin-top: 15px;
     margin-bottom: 30px;
 }
+
 .footer-icon {
     text-align: center;
     margin-bottom: 50px;
@@ -408,10 +415,12 @@ footer {
     text-align: center;
     margin-top: 50px;
 }
-#hide{
+
+#hide {
     display: none;
 }
-.hide{
+
+.hide {
     display: none;
 }
 
@@ -436,40 +445,80 @@ footer {
         display: block;
     }
 
-    .nav-container p{
+    .nav-container p {
         font-size: 1rem;
     }
+
     .nav-container img {
         width: 30px;
         height: 30px;
     }
-.banner{
-    padding: 32px 24px;
-}
+
+    .banner {
+        padding: 32px 24px;
+    }
+
     .banner-title {
         font-size: 1.3rem;
         font-weight: 800;
         margin-bottom: 24px;
     }
-    
+
     .banner-des {
         font-size: 0.8rem;
         font-weight: 400;
         margin-top: 0px;
         margin-bottom: 40px;
     }
-    .banner-search-bar, .banner-search-bar .select-option{
+
+    .banner-search-bar,
+    .banner-search-bar .select-option {
         flex-direction: column;
     }
-.dropdown>select{
-width: 255px;
-height: 52px;
+
+    .dropdown>select {
+        width: 255px;
+        height: 52px;
     }
-    .banner-search-bar #input-banner{
+
+    .banner-search-bar #input-banner {
         width: 222px;
-height: 52px;
+        height: 52px;
     }
+
     .btn-primary {
         width: 255px;
-    } 
+    }
+
+
+
+    main {
+        width: 375px;
+        height: 7429px;
+    }
+
+    #popular-tour-section {
+        flex-direction: column;
+        width: 100%;
+    }
+    .section-title{
+        font-size: 1.2rem;
+    }
+    .section-des, ul{
+        font-size: 0.8rem;
+        font-weight: 400;
+    }
+
+    .why-flex, .row, .newsletter{
+        flex-direction: column;
+    }
+    .hotel, .service, .price{
+        width: 100%;
+    }
+    .form input[type="name"], input[type="email"]{
+        padding: 16px 60px;
+    }
+    .subscribe-btn{
+        padding: 13px 110px;
+    }
 }
