@@ -1,14 +1,78 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&display=swap');
+
 /* shared styles */
-*{
+* {
     font-family: 'Mulish', sans-serif;
 }
-header{
+
+header {
     max-width: 1170px;
     margin: 0 auto;
 }
+
 /* banner styles start here */
-#banner-section{
+#banner-section {
     background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/bg1.png');
     background-repeat: no-repeat;
+}
+
+.banner-content {
+    color: #FFF;
+    text-align: center;
+}
+
+.banner-title {
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.banner-des {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* banner select option styles */
+.banner-search-bar .select-option {
+    display: flex;
+    gap: 24px;
+}
+
+/* banner search bar or filter bar styles */
+.banner-search-bar {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.banner-search-bar #input-banner {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background: #FFF;
+    padding: 0 16px;
+}
+
+.dropdown>select {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    outline: none;
+    padding: 16px 15px;
+}
+
+.btn-primary {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background: #FF5400;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 16px 34px;
 }
