@@ -171,20 +171,25 @@ ul>li {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 } */
-.why-flex{
+.why-flex {
     display: flex;
     gap: 24px;
 }
+
 .hotel {
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
 }
-.hotel, .service, .price{
+
+.hotel,
+.service,
+.price {
     width: 573px;
-height: 284px;
-align-items: center;
+    height: 284px;
+    align-items: center;
 }
+
 .service {
     border-radius: 16px;
     border: 1px solid rgba(41, 206, 246, 0.20);
@@ -198,7 +203,10 @@ align-items: center;
     margin: 0 auto;
     margin-top: 24px;
 }
-.hotel-content, .service-content, .price-content{
+
+.hotel-content,
+.service-content,
+.price-content {
     padding: 32px;
 }
 
@@ -209,6 +217,28 @@ align-items: center;
 }
 
 .why-choose-container p {
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/* newsletter section styles */
+.newsletter {
+    display: flex;
+    gap: 24px;
+}
+
+.newsletter-content {
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+
+.newsletter-content h3 {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.newsletter-content p {
     color: #5A5A5D;
     font-size: 1rem;
     font-weight: 400;
