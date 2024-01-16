@@ -223,6 +223,9 @@ ul>li {
 }
 
 /* newsletter section styles */
+#newsletter-section{
+    margin-top: 100px;
+}
 .newsletter {
     display: flex;
     gap: 24px;
@@ -231,15 +234,48 @@ ul>li {
 .newsletter-content {
     border-radius: 16px;
     border: 1px solid #FF5400;
+    padding: 30px;
 }
 
 .newsletter-content h3 {
     font-size: 1.5rem;
     font-weight: 800;
+    margin-bottom: 0;
 }
 
 .newsletter-content p {
     color: #5A5A5D;
     font-size: 1rem;
     font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.newsletter-content hr {
+    background: rgba(168, 168, 170, 0.1);
+}
+.form{
+    
+}
+.form input[type="name"],
+input[type="email"] {
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    color: rgba(19, 19, 24, 0.30);
+    border: none;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 16px 180px 16px 20px;
+    margin-top: 16px;
+}
+
+.subscribe-btn {
+    padding: 13px 150px;
+    margin-top: 24px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 800;
 }
