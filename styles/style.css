@@ -223,15 +223,25 @@ ul>li {
 .sundarban{
     display: flex;
     gap: 50px;
+    align-items: center;
+}
+.newest-travel-title{
+    text-align: center;
 }
 .sundarban .sundarban-img{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
 }
+.sundarban-content-text{
+    color: green;
+}
+.special-sundarban{
+    color: red;
+}
 .sundarban-img img{
-    width: 300px;
-    height: 200px;
+    width: 320px;
+    height: 250px;
     border-radius: 10px;
 }
 /* why choose section styles */
