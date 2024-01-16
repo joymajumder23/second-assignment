@@ -47,11 +47,12 @@ header {
 }
 
 /* banner search bar or filter bar styles */
-.banner-filter-bar{
+.banner-filter-bar {
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
-    
+
 }
+
 .banner-search-bar {
     display: flex;
     gap: 24px;
@@ -93,57 +94,70 @@ header {
     font-weight: 700;
     padding: 16px 34px;
 }
+
 /* main section styles start here */
-main{
+main {
     max-width: 1170px;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
+
 /* our popular tour styles */
-#popular-tour-section{
+#popular-tour-section {
     display: flex;
     gap: 53px;
     margin-top: 100px;
 }
-.section-title{
+
+.section-title {
     color: #131318;
-font-size: 2.5rem;
-font-weight: 800;
-margin-bottom: 0px;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 0px;
 }
-.section-des, ul{
+
+.section-des,
+ul {
     color: rgba(19, 19, 24, 0.70);
-font-size: 1rem;
-font-weight: 400;
-margin-top: 24px;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 24px;
 }
-ul>li{
+
+ul>li {
     margin-top: 16px;
 }
-.popular-tour-des{
+
+.popular-tour-des {
     color: #5A5A5D;
-font-size: 1rem;
-font-weight: 400;
-margin-top: 24px;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 24px;
 }
-.read{
+
+.read {
     margin-top: 32px;
 }
+
 /* destionation styles */
-.destination-title{
+.section-text-title {
     text-align: center;
 }
-.destination-des{
+
+.section-text-des {
     text-align: center;
 }
+
 /* destination images styles */
-.row{
+.row {
     display: flex;
     gap: 24px;
     margin-top: 24px;
 }
-.row>img{
+
+.row>img {
     width: 100%;
 }
+
 /* .maldives-img{
     position: relative;
 }
@@ -151,3 +165,49 @@ margin-top: 24px;
     position: absolute;
     top: 132px;
 } */
+
+/* why choose section styles */
+/* .why-choose-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+} */
+.why-flex{
+    display: flex;
+    gap: 24px;
+}
+.hotel-content {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+.hotel, .service, .price{
+    width: 573px;
+height: 284px;
+}
+.price{
+    margin: 0 auto;
+    align-items: center;
+  }
+.service-content {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.price-content {
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+
+.why-choose-container h3 {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.why-choose-container p {
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+}
