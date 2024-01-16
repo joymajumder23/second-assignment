@@ -135,3 +135,19 @@ margin-top: 24px;
 .destination-des{
     text-align: center;
 }
+/* destination images styles */
+.row{
+    display: flex;
+    gap: 24px;
+    margin-top: 24px;
+}
+.row>img{
+    width: 100%;
+}
+/* .maldives-img{
+    position: relative;
+}
+.maldives-text{
+    position: absolute;
+    top: 132px;
+} */
