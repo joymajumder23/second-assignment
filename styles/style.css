@@ -352,3 +352,28 @@ input[type="email"] {
     margin-top: 0;
     margin-bottom: 20px;
 }
+
+/* footer styles */
+.footer-content{
+    margin-top: 100px;
+    text-align: center;
+}
+.footer-title{
+    display: flex;
+    grid-area: 16px;
+    align-items: center;
+    gap: 16px;
+    justify-content: center;
+}
+.footer-title img{
+    width: 40px;
+height: 46.673px;
+}
+.footer-text{
+    color: #131318;
+font-size: 2rem;
+font-weight: 800;
+}
+.footer-des{
+    margin-top: 15px;
+}
