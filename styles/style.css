@@ -11,6 +11,11 @@ header {
 }
 
 /* nav styles start here */
+.toggle-btn {
+    display: none;
+    cursor: pointer;
+    font-size: 1.5em;
+}
 nav {
     display: flex;
     align-items: center;
@@ -402,4 +407,69 @@ footer {
     font-weight: 300;
     text-align: center;
     margin-top: 50px;
+}
+#hide{
+    display: none;
+}
+.hide{
+    display: none;
+}
+
+
+/* small/mobile screen responsive */
+@media only screen and (max-width: 600px) {
+    .items-container {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        background-color: #ffffff;
+    }
+
+    .items-container a {
+        margin: 10px;
+    }
+
+    .toggle-btn {
+        display: block;
+    }
+
+    .nav-container p{
+        font-size: 1rem;
+    }
+    .nav-container img {
+        width: 30px;
+        height: 30px;
+    }
+.banner{
+    padding: 32px 24px;
+}
+    .banner-title {
+        font-size: 1.3rem;
+        font-weight: 800;
+        margin-bottom: 24px;
+    }
+    
+    .banner-des {
+        font-size: 0.8rem;
+        font-weight: 400;
+        margin-top: 0px;
+        margin-bottom: 40px;
+    }
+    .banner-search-bar, .banner-search-bar .select-option{
+        flex-direction: column;
+    }
+.dropdown>select{
+width: 255px;
+height: 52px;
+    }
+    .banner-search-bar #input-banner{
+        width: 222px;
+height: 52px;
+    }
+    .btn-primary {
+        width: 255px;
+    } 
 }
