@@ -175,7 +175,7 @@ ul>li {
     display: flex;
     gap: 24px;
 }
-.hotel-content {
+.hotel {
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
@@ -183,21 +183,23 @@ ul>li {
 .hotel, .service, .price{
     width: 573px;
 height: 284px;
+align-items: center;
 }
-.price{
-    margin: 0 auto;
-    align-items: center;
-  }
-.service-content {
+.service {
     border-radius: 16px;
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
 }
 
-.price-content {
+.price {
     border-radius: 16px;
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
+    margin: 0 auto;
+    margin-top: 24px;
+}
+.hotel-content, .service-content, .price-content{
+    padding: 32px;
 }
 
 .why-choose-container h3 {
