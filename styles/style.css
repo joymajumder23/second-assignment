@@ -10,6 +10,49 @@ header {
     margin: 0 auto;
 }
 
+/* nav styles start here */
+nav{
+    display: flex;
+    align-items: center;
+}
+.nav-container {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    width: 50%;
+}
+
+.nav-container p {
+    color: #131318;
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+
+.nav-container img {
+    width: 48px;
+    height: 56.008px;
+}
+
+.special {
+    color: #FF5400;
+}
+.home-special{
+    color: #FF5400;
+font-size: 1.12rem;
+font-weight: 700;
+}
+.items-container{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+.items-container a{
+    text-decoration: none;
+    color: #424247;
+font-size: 1.12rem;
+font-weight: 400;
+}
+
 /* banner styles start here */
 #banner-section {
     background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/bg1.png');
@@ -223,10 +266,11 @@ ul>li {
 }
 
 /* newsletter section styles */
-#newsletter-section{
+#newsletter-section {
     margin-top: 100px;
     margin-bottom: 100px;
 }
+
 .newsletter {
     display: flex;
     gap: 24px;
@@ -255,9 +299,9 @@ ul>li {
 .newsletter-content hr {
     background: rgba(168, 168, 170, 0.1);
 }
-.form{
-    
-}
+
+.form {}
+
 .form input[type="name"],
 input[type="email"] {
     border-radius: 8px;
@@ -280,28 +324,31 @@ input[type="email"] {
     font-size: 1.25rem;
     font-weight: 800;
 }
-.save-up-badge{
+
+.save-up-badge {
     width: 324px;
-height: 120px;
-transform: rotate(-19.628deg);
-border-radius: 16px;
-background: #FF5400;
-color: #FFF;
-text-align: center;
-padding: 5px;
-position: relative;
-bottom: 200px;
-left: 300px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    border-radius: 16px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    padding: 5px;
+    position: relative;
+    bottom: 200px;
+    left: 300px;
 }
-.save-up-badge p{
+
+.save-up-badge p {
     font-size: 1.5rem;
-font-weight: 400;
-margin-top: 10px;
-margin-bottom: 5px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
-.save-up-badge h3{
+
+.save-up-badge h3 {
     font-size: 2rem;
-font-weight: 800;
-margin-top: 0;
-margin-bottom: 20px;
+    font-weight: 800;
+    margin-top: 0;
+    margin-bottom: 20px;
 }
