@@ -147,6 +147,10 @@ nav {
     font-weight: 700;
     padding: 16px 34px;
 }
+.btn-primary:hover{
+    cursor: pointer;
+    background-color: rgb(197, 39, 0);
+}
 
 /* main section styles start here */
 main {
@@ -370,6 +374,10 @@ input[type="email"] {
     font-size: 1.25rem;
     font-weight: 800;
 }
+.subscribe-btn:hover{
+    cursor: pointer;
+    background-color: rgb(180, 17, 17);
+}
 
 .save-up-badge {
     width: 324px;
@@ -383,6 +391,10 @@ input[type="email"] {
     position: absolute;
     bottom: 70px;
     left: 325px;
+}
+.save-up-badge:hover{
+    cursor: pointer;
+    background-color: gold;
 }
 
 .save-up-badge p {
@@ -551,6 +563,9 @@ footer {
     /* rewarded or sundarban travel section responsive */
     .newest-travel-title {
         padding-top: 50px;
+            text-align: center;
+            text-decoration: underline;
+            margin-top: 0;
     }
 
     .sundarban {
