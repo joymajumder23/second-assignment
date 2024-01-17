@@ -503,6 +503,9 @@ footer {
     }
 
     /* banner section responsive */
+    #banner-section {
+        background-position: center;
+    }
     .banner {
         padding: 32px 24px;
     }
