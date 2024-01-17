@@ -228,6 +228,8 @@ ul>li {
 
 .newest-travel-title {
     text-align: center;
+    text-decoration: underline;
+    margin-top: 100px;
 }
 
 .sundarban .sundarban-img {
@@ -345,7 +347,6 @@ ul>li {
     position: relative;
 }
 
-.form {}
 
 .form input[type="name"],
 input[type="email"] {
@@ -459,6 +460,8 @@ footer {
 
 /* small/mobile screen responsive */
 @media only screen and (max-width: 600px) {
+
+    /* nav items responsive */
     .items-container {
         display: none;
         flex-direction: column;
@@ -487,6 +490,7 @@ footer {
         height: 30px;
     }
 
+    /* banner section responsive */
     .banner {
         padding: 32px 24px;
     }
@@ -523,6 +527,7 @@ footer {
         width: 255px;
     }
 
+    /* popular tour section responsive */
     #popular-tour-section {
         flex-direction: column;
         width: 100%;
@@ -543,7 +548,7 @@ footer {
         height: 100%;
     }
 
-
+    /* rewarded or sundarban travel section responsive */
     .newest-travel-title {
         padding-top: 50px;
     }
@@ -557,6 +562,7 @@ footer {
         padding-top: 20px;
     }
 
+    /* why choose section responsive */
     .why-flex,
     .row,
     .newsletter {
@@ -569,6 +575,7 @@ footer {
         width: 100%;
     }
 
+    /* newsletter section responsive */
     .form input[type="name"],
     input[type="email"] {
         padding: 16px 60px;
@@ -612,9 +619,7 @@ footer {
         margin-bottom: 20px;
     }
 
-
-
-
+    /* footer section responsive */
     #footer-section {
         padding: 30px 44px;
     }
